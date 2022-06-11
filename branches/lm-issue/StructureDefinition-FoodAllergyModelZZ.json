@@ -1,0 +1,350 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "FoodAllergyModelZZ",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-FoodAllergyModelZZ-definitions.html#FoodAllergyModelZZ\">FoodAllergyModelZZ</a><a name=\"FoodAllergyModelZZ\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/openhie/FoodAllergy-webinar//StructureDefinition-FoodAllergyModel.html\">FoodAllergyModel</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-FoodAllergyModelZZ-definitions.html#FoodAllergyModelZZ.allergen\">allergen</a><a name=\"FoodAllergyModelZZ.allergen\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-FoodAllergyZZVS.html\">Food Allergies</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#extensible\" title=\"To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.\">extensible</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-FoodAllergyModelZZ-definitions.html#FoodAllergyModelZZ.allergen\" title=\"The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used\">allergen</a><a name=\"FoodAllergyModelZZ.allergen\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The substance that the person is allergic to</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url": "http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/StructureDefinition/FoodAllergyModelZZ",
+  "version": "0.1.0",
+  "name": "FoodAllergyModelZZ",
+  "title": "Food Allergy Logical Model",
+  "status": "active",
+  "date": "2022-06-11T23:32:55+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ohie.org"
+        }
+      ]
+    }
+  ],
+  "description": "Food Allergy information model",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/StructureDefinition/FoodAllergyModelZZ",
+  "baseDefinition": "http://ohie.org/fhir/food-allergy/StructureDefinition/FoodAllergyModel",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "FoodAllergyModel",
+        "path": "FoodAllergyModel",
+        "short": "Food Allergy Logical Model",
+        "definition": "Food Allergy information model",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Base",
+          "min": 0,
+          "max": "*"
+        },
+        "isModifier": false
+      },
+      {
+        "id": "FoodAllergyModel.patient",
+        "path": "FoodAllergyModel.patient",
+        "short": "The person that has the allergy",
+        "definition": "The person that has the allergy",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.patient",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.allergen",
+        "path": "FoodAllergyModel.allergen",
+        "short": "The substance that the person is allergic to",
+        "definition": "The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.allergen",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.clinicalStatus",
+        "path": "FoodAllergyModel.clinicalStatus",
+        "short": "The status of the allergy - if it is active or resolved",
+        "definition": "The status of the allergy - if it is active or resolved",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.clinicalStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.verificationStatus",
+        "path": "FoodAllergyModel.verificationStatus",
+        "short": "The verification status of the allergy - if it is confirmed or suspected or refuted",
+        "definition": "The verification status of the allergy - if it is confirmed or suspected or refuted",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.verificationStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.recordedDate",
+        "path": "FoodAllergyModel.recordedDate",
+        "short": "When the allergy was reported",
+        "definition": "When the allergy was reported",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.recordedDate",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.recorder",
+        "path": "FoodAllergyModel.recorder",
+        "short": "Who recorded the allergy",
+        "definition": "Who recorded the allergy",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.recorder",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.asserter",
+        "path": "FoodAllergyModel.asserter",
+        "short": "Who asserted the allergy",
+        "definition": " who asserted or provided the allergy information e.g. the patient, a relative, a care giver...",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.asserter",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.reactions",
+        "path": "FoodAllergyModel.reactions",
+        "short": "known past reactions to the allergen",
+        "definition": "known past reactions to the allergen",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.reactions",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.reactions.manifestation",
+        "path": "FoodAllergyModel.reactions.manifestation",
+        "short": "How the reaction manifested itself",
+        "definition": "How the reaction manifested itself, e.g. rash, breathing difficulty...",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.reactions.manifestation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.reactions.certitude",
+        "path": "FoodAllergyModel.reactions.certitude",
+        "short": "How certain we are that the cause of the reaction was the allergen indicated",
+        "definition": "How certain we are that the cause of the reaction was the allergen indicated",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.reactions.certitude",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.reactions.exposure",
+        "path": "FoodAllergyModel.reactions.exposure",
+        "short": "The exposure route to the substance",
+        "definition": "The exposure route to the substance",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.reactions.exposure",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModel.reactions.note",
+        "path": "FoodAllergyModel.reactions.note",
+        "short": "Additional text note about the allergic reaction",
+        "definition": "Additional text note about the allergic reaction",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModel.reactions.note",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "FoodAllergyModelZZ",
+        "path": "FoodAllergyModelZZ",
+        "base": {
+          "path": "FoodAllergyModelZZ",
+          "min": 0
+        }
+      },
+      {
+        "id": "FoodAllergyModelZZ.allergen",
+        "path": "FoodAllergyModelZZ.allergen",
+        "base": {
+          "path": "FoodAllergyModelZZ.allergen",
+          "min": 0
+        },
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/ValueSet/FoodAllergyZZVS"
+        }
+      },
+      {
+        "id": "FoodAllergyModelZZ.allergen",
+        "path": "FoodAllergyModelZZ.allergen",
+        "short": "The substance that the person is allergic to",
+        "definition": "The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "FoodAllergyModelZZ.allergen",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "FoodAllergyModelZZ",
+        "path": "FoodAllergyModelZZ"
+      },
+      {
+        "id": "FoodAllergyModelZZ.allergen",
+        "path": "FoodAllergyModelZZ.allergen",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/ValueSet/FoodAllergyZZVS"
+        }
+      },
+      {
+        "id": "FoodAllergyModelZZ.allergen",
+        "path": "FoodAllergyModelZZ.allergen",
+        "short": "The substance that the person is allergic to",
+        "definition": "The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      }
+    ]
+  }
+}
