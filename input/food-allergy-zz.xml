@@ -41,7 +41,7 @@
   <dependsOn> 
     <!-- <uri value="http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy"/>  -->
     <packageId value="ohie.fhir.food-allergy"/>
-    <version value="0.1.0"/> 
+    <version value="current"/> 
   </dependsOn> 
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
