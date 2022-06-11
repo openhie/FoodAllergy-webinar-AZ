@@ -11,7 +11,7 @@
   "title": "Food Allergies ImplementationGuide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-06-11T23:25:31+00:00",
+  "date": "2022-06-11T23:32:55+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -392,19 +392,6 @@
         },
         "name": "Food Allergies",
         "description": "Main Food allergies."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/FoodAllergyZZ"
-        },
-        "name": "Food Allergy",
-        "description": "Food Allergy profile"
       },
       {
         "extension": [

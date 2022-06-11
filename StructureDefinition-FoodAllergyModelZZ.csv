@@ -26,27 +26,5 @@
 ","Additional text note about the allergic reaction","Additional text note about the allergic reaction","","","","","","","","","",,,,,"",,,,"FoodAllergyModel.reactions.note",0,1,"",""
 "FoodAllergyModelZZ","FoodAllergyModelZZ","","","",0,null,"","","","","","","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ",0,null,"",""
 "FoodAllergyModelZZ.allergen","FoodAllergyModelZZ.allergen","","","",0,null,"","","","","","","","","","","","","","","",,"extensible","","http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/ValueSet/FoodAllergyZZVS","",,,,"FoodAllergyModelZZ.allergen",0,null,"",""
-"FoodAllergyModelZZ.reactions.manifestation","FoodAllergyModelZZ.reactions.manifestation","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","How the reaction manifested itself","How the reaction manifested itself, e.g. rash, breathing difficulty...","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.reactions.manifestation",0,1,"",""
-"FoodAllergyModelZZ.reactions.certitude","FoodAllergyModelZZ.reactions.certitude","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","How certain we are that the cause of the reaction was the allergen indicated","How certain we are that the cause of the reaction was the allergen indicated","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.reactions.certitude",0,1,"",""
-"FoodAllergyModelZZ.reactions.exposure","FoodAllergyModelZZ.reactions.exposure","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","The exposure route to the substance","The exposure route to the substance","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.reactions.exposure",0,1,"",""
-"FoodAllergyModelZZ.reactions.note","FoodAllergyModelZZ.reactions.note","","","",0,1,"","","","string {[]} {[]}
-","Additional text note about the allergic reaction","Additional text note about the allergic reaction","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.reactions.note",0,1,"",""
-"FoodAllergyModelZZ.patient","FoodAllergyModelZZ.patient","","","",1,1,"","","","Reference {[]} {[]}
-","The person that has the allergy","The person that has the allergy","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.patient",1,1,"",""
 "FoodAllergyModelZZ.allergen","FoodAllergyModelZZ.allergen","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","The substance that the person is allergic to","The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.allergen",1,1,"",""
-"FoodAllergyModelZZ.clinicalStatus","FoodAllergyModelZZ.clinicalStatus","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","The status of the allergy - if it is active or resolved","The status of the allergy - if it is active or resolved","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.clinicalStatus",1,1,"",""
-"FoodAllergyModelZZ.verificationStatus","FoodAllergyModelZZ.verificationStatus","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","The verification status of the allergy - if it is confirmed or suspected or refuted","The verification status of the allergy - if it is confirmed or suspected or refuted","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.verificationStatus",1,1,"",""
-"FoodAllergyModelZZ.recordedDate","FoodAllergyModelZZ.recordedDate","","","",0,1,"","","","dateTime {[]} {[]}
-","When the allergy was reported","When the allergy was reported","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.recordedDate",0,1,"",""
-"FoodAllergyModelZZ.recorder","FoodAllergyModelZZ.recorder","","","",0,1,"","","","Reference {[]} {[]}
-","Who recorded the allergy","Who recorded the allergy","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.recorder",0,1,"",""
-"FoodAllergyModelZZ.asserter","FoodAllergyModelZZ.asserter","","","",0,1,"","","","Reference {[]} {[]}
-","Who asserted the allergy"," who asserted or provided the allergy information e.g. the patient, a relative, a care giver...","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.asserter",0,1,"",""
-"FoodAllergyModelZZ.reactions","FoodAllergyModelZZ.reactions","","","",0,1,"","","","BackboneElement {[]} {[]}
-","known past reactions to the allergen","known past reactions to the allergen","","","","","","","","","",,,,,"",,,,"FoodAllergyModelZZ.reactions",0,1,"",""

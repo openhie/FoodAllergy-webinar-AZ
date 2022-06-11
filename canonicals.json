@@ -14,13 +14,6 @@
     "name": "FoodAllergyModelZZ"
   },
   {
-    "id": "FoodAllergyZZ",
-    "type": "StructureDefinition",
-    "url": "http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/StructureDefinition/FoodAllergyZZ",
-    "version": "0.1.0",
-    "name": "FoodAllergyZZ"
-  },
-  {
     "id": "FoodAllergyZZVS",
     "type": "ValueSet",
     "url": "http://ohie.org/fhir/food-allergy/ImplementationGuide/food-allergy-zz/ValueSet/FoodAllergyZZVS",
